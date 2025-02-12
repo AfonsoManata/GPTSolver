@@ -63,6 +63,7 @@ const getTextFromImage = async (imagePath) => {
 // Async function to send the extracted text to ChatGPT
 const askChatGPT = async (question) => {
   try {
+    // Concatenate what you want to ask 
     const response = await openai.chat.completions.create({
       model: 'gpt-3.5-turbo', 
       messages: [{ role: 'user', content: question }],
