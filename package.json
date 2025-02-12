@@ -3,6 +3,7 @@
     "axios": "^1.7.9",
     "clipboardy": "^4.0.0",
     "dotenv": "^16.4.7",
-    "openai": "^4.83.0"
+    "openai": "^4.83.0",
+    "tesseract.js": "^6.0.0"
   }
 }
