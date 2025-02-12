@@ -1,5 +1,5 @@
 // Imports needed 
-require('dotenv').config();
+require('dotenv').config({ path: '../.env' });
 const { createWorker } = require('tesseract.js');
 const os = require('os');
 const fs = require("fs");
@@ -8,8 +8,7 @@ const clipboardy = require('clipboardy');
 const dir = path.join(process.env.HOME, "Desktop", "Screenshots"); // Here change to your Screenshot folder
 const { OpenAI } = require('openai');
 const API_KEY = process.env.API_KEY; // You can put your api key here 
-
-
+const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
 // Initialize OpenAI client
 const openai = new OpenAI({
@@ -36,13 +35,11 @@ function get_last_screenshot(directory){
   files.reverse();
   
   const last_path = path.join(directory, files[0]);
-
+  
   return last_path; 
 }
 
-const image = get_last_screenshot(dir);
-
-// Using tesseract js to extract the text from the image 
+//Using tesseract js to extract the text from the image 
 const getTextFromImage = async (imagePath) => {
   const worker = await createWorker();
 
@@ -51,28 +48,28 @@ const getTextFromImage = async (imagePath) => {
   return text;
 };
 
-(async () => {
-  try {
-    const { data: { text } } = await getTextFromImage(image);
-    
-   } catch (error) {
-    console.error('Error:', error);
-  }
-})();
 
-// Async function to send the extracted text to ChatGPT
 const askChatGPT = async (question) => {
+  
   try {
-    // Concatenate what you want to ask 
+    // Customizing the output of ChatGPT 
+    const p = "If is a multiple choice give me the letter of the correct answer.";
+    const s = " If not, you give me the answer without explanations";
+    const f = "---->";
+    
+    const ask = p + s + f + question;
+   
     const response = await openai.chat.completions.create({
       model: 'gpt-3.5-turbo', 
-      messages: [{ role: 'user', content: question }],
+      messages: [{ role: 'user', content: ask }],
     });
-
-    // Once the response is received, we print out the answer from ChatGPT
+    
+    clipboardy.writeSync(response.choices[0].message.content);
     console.log('Correct Answer:', response.choices[0].message.content);
-  } catch (error) {
-    // If there's an error, we'll catch it and log it
+    console.log("The correct answer is in your cliboard.");
+    console.log("You can paste it using Ctrl + v");
+  
+  }catch (error) {
     console.error('Error contacting ChatGPT:', error);
   }
 };
@@ -80,20 +77,26 @@ const askChatGPT = async (question) => {
 // Main async function that combines everything
 (async () => {
   try {
-    // First, extract text from the last screenshot
-    const { data: { text } } = await getTextFromImage(image); // Wait for the text to be extracted
-    console.log('Extracted Text:', text); // Log the extracted text
+    console.log("If you have used all your quota in ChatGPT this program will show a complex error.")
+    console.log("Waiting for screenshots. Type Ctrl+C to Stop");
+    while (true) 
+    { 
+      const files = fs.readdirSync(dir); 
+      await sleep(500);
 
-    // Then, send that extracted text as a question to ChatGPT
-    await askChatGPT(text); // Wait for ChatGPT's response
-  } catch (error) {
-    // If there's an error during the process, log it
+      if (files.length !== 0){ 
+        const image = get_last_screenshot(dir);
+        const { data: { text } } = await getTextFromImage(image); 
+        await askChatGPT(text);
+        removeallfiles(dir);
+        console.log("Waiting for screenshots. Type Ctrl+C to Stop");
+      }
+    }
+  }catch (error) {
     console.error('Error:', error);
   }
 })();
 
 
 
-//if files = [] continue;
-// make the folder of screenshots empty  
-//removeallfiles(dir);
+
