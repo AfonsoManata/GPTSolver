@@ -1,6 +1,7 @@
 # 🚀 GPTSolver – Your Smart Assistant! 🤖  
 GPTSolver is a powerful tool that **extracts text from screenshots** and **uses ChatGPT api** to provide automatic answers! 📸➡️🧠 It monitors your screenshot folder, reads the text using **OCR (Tesseract.js)**, and sends the question to **ChatGPT**, automatically copying the answer to your clipboard! ✨  
 
+
 ## 🛠️ Technologies Used  
 ✅ **Node.js** - Main engine of the project  
 ✅ **Tesseract.js** - Text recognition (OCR)  
@@ -9,10 +10,12 @@ GPTSolver is a powerful tool that **extracts text from screenshots** and **uses 
 ✅ **Dotenv** - Manages environment variables  
 ✅ **Filesystem (fs)** - Handles screenshots  
 
+
 ## 📌 Requirements  
 🔹 **Node.js installed** on your system  
 🔹 **OpenAI account** to get an API Key  
 🔹 **Set up the folder** where screenshots are saved  
+
 
 ## 📥 Installation  
 ### 1️⃣ **Clone the repository:**  
@@ -27,6 +30,7 @@ npm install
 ```sh  
 API_KEY=your_openai_api_key  
 ```
+
 
 ## 🚀 How to Use?
 
@@ -46,6 +50,7 @@ node app.js
 ‣ The answer is automatically copied to your clipboard!✨
 
 ‣ You can simply paste it (Ctrl + V) anywhere!
+
 
 ### ⚠️ Important Notes
 
