@@ -1,5 +1,7 @@
 # 🚀 GPTSolver – Your Smart Assistant! 🤖  
-GPTSolver is a powerful tool that **extracts text from screenshots** and **uses ChatGPT api** to provide automatic answers! 📸➡️🧠 It monitors your screenshot folder, reads the text using **OCR (Tesseract.js)**, and sends the question to **ChatGPT**, automatically copying the answer to your clipboard! ✨  
+GPTSolver is a powerful tool that **extracts text from screenshots** and **uses ChatGPT api** to provide automatic answers! 
+
+It monitors your screenshot folder, reads the text using **Tesseract.js**, and sends the question to **ChatGPT**, automatically copying the answer to your clipboard! ✨  
 
 
 ## 🛠️ Technologies Used  
