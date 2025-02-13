@@ -37,18 +37,18 @@ node app.js
 ```
 ### 2️⃣ **Now just take screenshots! 📸 GPTSolver is watching!**
 
-🔹 Whenever a screenshot is detected:
+ **Whenever a screenshot is detected:**
 
-✅ Text is extracted 📝
+▸ Text is extracted 📝
 
-✅ ChatGPT analyzes the question 🤔💡
+‣ ChatGPT analyzes the question 🤔💡
 
-✅ The answer is automatically copied to your clipboard!✨
+‣ The answer is automatically copied to your clipboard!✨
 
-💡 You can simply paste it (Ctrl + V) anywhere!
+‣ You can simply paste it (Ctrl + V) anywhere!
 
 ### ⚠️ Important Notes
 
-❌ If you exceed ChatGPT’s API quota, errors may occur.
+❌  If you exceed ChatGPT’s API quota, errors may occur.
 
-🗑️ The program automatically deletes screenshots after processing them.
+🗑️  The program automatically deletes screenshots after processing them.
