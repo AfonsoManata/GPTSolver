@@ -15,7 +15,35 @@ GPTSolver is a powerful tool that **extracts text from screenshots** and **uses 
 🔹 **Set up the folder** where screenshots are saved  
 
 ## 📥 Installation  
-1️⃣ **Clone the repository:**  
+### 1️⃣ **Clone the repository:**  
 ```sh  
-git clone https://github.com/your-username/gpt-solver.git  
-cd gpt-solver  
+git clone https://github.com/AfonsoManata/GPTSolver.git
+```
+### 2️⃣ **Install all dependencies**
+```sh  
+npm install
+```
+### 3️⃣ **Set your own Api Key**
+```sh  
+API_KEY=your_openai_api_key  
+```
+
+## 🚀 How to Use?
+
+### 1️⃣ **Run the program:**
+```sh  
+cd src
+node app.js
+```
+### 2️⃣ **Now just take screenshots! 📸 GPT SOLVEr is watching!**
+
+🔹 Whenever a screenshot is detected:
+✅ Text is extracted 📝
+✅ ChatGPT analyzes the question 🤔💡
+✅ The answer is automatically copied to your clipboard!✨
+💡 You can simply paste it (Ctrl + V) anywhere!
+
+### ⚠️ Important Notes
+
+❌ If you exceed ChatGPT’s API quota, errors may occur.
+🗑️ The program automatically deletes screenshots after processing them.
