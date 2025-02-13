@@ -35,15 +35,20 @@ API_KEY=your_openai_api_key
 cd src
 node app.js
 ```
-### 2️⃣ **Now just take screenshots! 📸 GPT SOLVEr is watching!**
+### 2️⃣ **Now just take screenshots! 📸 GPTSolver is watching!**
 
 🔹 Whenever a screenshot is detected:
+
 ✅ Text is extracted 📝
+
 ✅ ChatGPT analyzes the question 🤔💡
+
 ✅ The answer is automatically copied to your clipboard!✨
+
 💡 You can simply paste it (Ctrl + V) anywhere!
 
 ### ⚠️ Important Notes
 
 ❌ If you exceed ChatGPT’s API quota, errors may occur.
+
 🗑️ The program automatically deletes screenshots after processing them.
