@@ -1,14 +1,23 @@
 # 🚀 GemSolver: The AI Screen Assistant ✨
 
----
+
 
 ## Project Overview 💡
 
-**GemSolver** is an innovative solution that seamlessly integrates **Computer Vision (OCR) 👁️‍🗨️** and **Artificial Intelligence (Google Gemini API) 🧠** to automate text extraction from screen captures and generate instant, highly relevant responses. We developed this project to streamline workflows by creating a direct bridge between a user's on-screen visual content and Google Gemini's cutting-edge natural language processing capabilities.
 
-It's a powerful tool for anyone needing quick and accurate answers from visual information, ranging from troubleshooting technical issues to querying data in documents or images. **GemSolver is especially useful for scenarios where direct text copying from the screen is restricted (e.g., protected websites 🔒, image-only content 🖼️, certain PDFs).**
+**See GemSolver in action:** Discover how this tool seamlessly extracts information from challenging sources and provides instant, intelligent answers.
 
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=YOUR_YOUTUBE_VIDEO_ID" target="_blank">
+    <img src="https://img.youtube.com/vi/YOUR_YOUTUBE_VIDEO_ID/maxresdefault.jpg" 
+         alt="GemSolver Demo Video" 
+         style="width:100%; max-width:600px;">
+  </a>
+</p>
+
+*(Click the image to watch the video)* ▶️
 ---
+
 
 ## Core Functionalities 🌟
 
@@ -31,21 +40,6 @@ This project demonstrates proficiency and familiarity with a modern and relevant
 * **`fs` (File System) & `path`:** Native Node.js modules for file and directory manipulation. 📂
 * **`clipboardy`:** For programmatic interaction with the system clipboard. 📋
 
----
-
-## Watch the Demo! 🎬
-
-**See GemSolver in action:** Discover how this tool seamlessly extracts information from challenging sources and provides instant, intelligent answers.
-
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=YOUR_YOUTUBE_VIDEO_ID" target="_blank">
-    <img src="https://img.youtube.com/vi/YOUR_YOUTUBE_VIDEO_ID/maxresdefault.jpg" 
-         alt="GemSolver Demo Video" 
-         style="width:100%; max-width:600px;">
-  </a>
-</p>
-
-*(Click the image to watch the video)* ▶️
 ---
 
 ## Getting Started 🚀
