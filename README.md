@@ -68,10 +68,8 @@ To run GemSolver locally, follow these steps:
     Obtain your API key from [Google AI Studio](https://aistudio.google.com/). 🔑
 4.  **Run the assistant:**
     ```bash
-    node index.js
+    node app.js
     ```
-    The assistant will begin monitoring your "Screenshots" folder (typically located on your Desktop). 🖥️✨
 
----
 
 
