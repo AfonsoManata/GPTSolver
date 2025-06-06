@@ -78,15 +78,3 @@ To run GemSolver locally, follow these steps:
 * **General Users:** Automate information retrieval from any visual content on their screen. 🧑‍💻
 
 ---
-
-## Contribution 🙌
-
-Contributions are welcome! Feel free to open issues for suggestions or pull requests with improvements. 🤝
-
----
-
-## License 📄
-
-This project is licensed under the MIT License.
-
----
