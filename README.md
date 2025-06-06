@@ -25,7 +25,6 @@
 * **Automatic Clipboard Copy:** The Gemini-generated response is automatically copied to the system clipboard (`clipboardy`), allowing for instant pasting into any application. 🚀
 * **Automation and Optimization:** It eliminates the need for manual text copying and question formulation, streamlining tasks and boosting productivity. ✅
 
----
 
 ## Technologies Utilized 🛠️
 
@@ -38,7 +37,6 @@ This project demonstrates proficiency and familiarity with a modern and relevant
 * **`fs` (File System) & `path`:** Native Node.js modules for file and directory manipulation. 📂
 * **`clipboardy`:** For programmatic interaction with the system clipboard. 📋
 
----
 
 ## Potential Use Cases 🎯
 
@@ -48,7 +46,6 @@ This project demonstrates proficiency and familiarity with a modern and relevant
 * **Developers/Technical Support:** Copy error messages or code snippets from images and receive solutions or explanations. 🐛💡
 * **General Users:** Automate information retrieval from any visual content on their screen. 🧑‍💻
 
----
 
 ## Getting Started 🚀
 
