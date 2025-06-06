@@ -37,9 +37,15 @@ This project demonstrates proficiency and familiarity with a modern and relevant
 
 **See GemSolver in action:** Discover how this tool seamlessly extracts information from challenging sources and provides instant, intelligent answers.
 
-[![Watch the demo video](http://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
-*(Click the image to watch the video)* ▶️
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=YOUR_YOUTUBE_VIDEO_ID" target="_blank">
+    <img src="https://img.youtube.com/vi/YOUR_YOUTUBE_VIDEO_ID/maxresdefault.jpg" 
+         alt="GemSolver Demo Video" 
+         style="width:100%; max-width:600px;">
+  </a>
+</p>
 
+*(Click the image to watch the video)* ▶️
 ---
 
 ## Getting Started 🚀
