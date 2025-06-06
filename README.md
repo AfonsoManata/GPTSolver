@@ -41,6 +41,25 @@ This project demonstrates proficiency and familiarity with a modern and relevant
 * **`clipboardy`:** For programmatic interaction with the system clipboard. 📋
 
 ---
+## Potential Use Cases 🎯
+
+* **Bypassing Copy Restrictions:** Easily extract text from websites or documents that block standard copy-paste functionalities. 🔓
+* **Students:** Get quick answers to questions from textbooks, tests, or slides that might be image-based. 📚❓
+* **Professionals:** Extract information from reports, invoices, or charts and get instant analysis, even when the content isn't selectable. 📊
+* **Developers/Technical Support:** Copy error messages or code snippets from images and receive solutions or explanations. 🐛💡
+* **General Users:** Automate information retrieval from any visual content on their screen. 🧑‍💻
+
+---
+
+## Potential Use Cases 🎯
+
+* **Bypassing Copy Restrictions:** Easily extract text from websites or documents that block standard copy-paste functionalities. 🔓
+* **Students:** Get quick answers to questions from textbooks, tests, or slides that might be image-based. 📚❓
+* **Professionals:** Extract information from reports, invoices, or charts and get instant analysis, even when the content isn't selectable. 📊
+* **Developers/Technical Support:** Copy error messages or code snippets from images and receive solutions or explanations. 🐛💡
+* **General Users:** Automate information retrieval from any visual content on their screen. 🧑‍💻
+
+---
 
 ## Getting Started 🚀
 
@@ -69,12 +88,4 @@ To run GemSolver locally, follow these steps:
 
 ---
 
-## Potential Use Cases 🎯
 
-* **Bypassing Copy Restrictions:** Easily extract text from websites or documents that block standard copy-paste functionalities. 🔓
-* **Students:** Get quick answers to questions from textbooks, tests, or slides that might be image-based. 📚❓
-* **Professionals:** Extract information from reports, invoices, or charts and get instant analysis, even when the content isn't selectable. 📊
-* **Developers/Technical Support:** Copy error messages or code snippets from images and receive solutions or explanations. 🐛💡
-* **General Users:** Automate information retrieval from any visual content on their screen. 🧑‍💻
-
----
