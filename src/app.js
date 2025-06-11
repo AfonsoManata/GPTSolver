@@ -94,10 +94,8 @@ const askGemini = async (question) => {
 
       if (files.length !== 0) { // Check for new files in the folder.
         const image = get_last_screenshot(dir); // Get the latest screenshot.
-        console.log("Latest image:", image);
 
         const text = await getTextFromImage(image); // Extract text from the screenshot.
-        console.log("Extracted Text:", text.trim());
 
         await askGemini(text); // Send text to Gemini and get a response.
 
