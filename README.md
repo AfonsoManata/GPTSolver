@@ -9,7 +9,7 @@
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=YOUR_YOUTUBE_VIDEO_ID" target="_blank">
-    <img src="[https://img.youtube.com/vi/YOUR_YOUTUBE_VIDEO_ID/maxresdefault.jpg](https://www.youtube.com/watch?v=17AD3QISHU4)" 
+    <img src="https://www.youtube.com/watch?v=17AD3QISHU4&ab_channel=AfonsoManata" 
          alt="GemSolver Demo Video" 
          style="width:100%; max-width:600px;">
   </a>
