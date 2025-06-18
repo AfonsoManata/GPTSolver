@@ -8,15 +8,14 @@
 **See GemSolver in action:** Discover how this tool seamlessly extracts information from challenging sources and provides instant, intelligent answers.
 
 <p align="center">
-  <a href="https://www.youtube.com/watch?v=YOUR_YOUTUBE_VIDEO_ID" target="_blank">
-    <img src="https://www.youtube.com/watch?v=17AD3QISHU4&ab_channel=AfonsoManata" 
-         alt="GemSolver Demo Video" 
-         style="width:100%; max-width:600px;">
+  <a href="https://www.youtube.com/watch?v=17AD3QISHU4&ab_channel=AfonsoManata" target="_blank">
+    <img src="YOUR_YOUTUBE_THUMBNAIL_IMAGE_URL"
+         alt="GemSolver Demo Video"
+         style="max-width:600px;">
   </a>
 </p>
 
 *(Click the image to watch the video)* ▶️
-
 ## Core Functionalities 🌟
 
 * **Automatic Capture and Analysis:** GemSolver monitors a designated screenshots directory (e.g., default "Screenshots" folder 📸) and automatically processes the most recent image.
