@@ -15,6 +15,7 @@
   </a>
 </p>
 
+*(Click the image to watch the video)* ▶️
 
 ## Core Functionalities 🌟
 
