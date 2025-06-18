@@ -9,13 +9,13 @@
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=17AD3QISHU4&ab_channel=AfonsoManata" target="_blank">
-    <img src="https://i9.ytimg.com/vi_webp/17AD3QISHU4/mq2.webp?…DkgEyh_MA8=&rs=AOn4CLC3-MGJCb6kA2fUBumce3OeqVnUxA"
+    <img src="https://i9.ytimg.com/vi_webp/17AD3QISHU4/mq2.webp?sqp=CNy6ysIG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGDkgEyh_MA8=&rs=AOn4CLC3-MGJCb6kA2fUBumce3OeqVnUxA"
          alt="GemSolver Demo Video"
          style="max-width:600px;">
   </a>
 </p>
 
-*(Click the image to watch the video)* ▶️
+
 ## Core Functionalities 🌟
 
 * **Automatic Capture and Analysis:** GemSolver monitors a designated screenshots directory (e.g., default "Screenshots" folder 📸) and automatically processes the most recent image.
